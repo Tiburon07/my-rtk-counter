@@ -1,0 +1,124 @@
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 24px;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    font-family: "Inter", system-ui, sans-serif;
+  }
+  
+  .title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  
+  .empty {
+    color: #666;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 12px 0;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding: 8px 0;
+  }
+  
+  .itemName {
+    font-weight: 500;
+    margin-right: 8px;
+  }
+  
+  .itemPrice {
+    color: #888;
+    font-size: 0.9rem;
+  }
+  
+  .removeBtn {
+    background: transparent;
+    border: none;
+    color: #e63946;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: transform 0.2s ease;
+  }
+  .removeBtn:hover {
+    transform: scale(1.2);
+  }
+  
+  .total {
+    text-align: right;
+    font-size: 1rem;
+    margin: 12px 0;
+    font-weight: 500;
+  }
+  
+  .form {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .inputGroup {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .inputGroup label {
+    font-size: 0.8rem;
+    color: #555;
+    margin-bottom: 4px;
+  }
+  
+  .inputGroup input {
+    padding: 6px 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    transition: border-color 0.2s ease;
+  }
+  
+  .inputGroup input:focus {
+    border-color: #0077ff;
+    outline: none;
+  }
+  
+  .addBtn {
+    background-color: #0077ff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.2s ease;
+  }
+  .addBtn:hover {
+    background-color: #005fcc;
+  }
+  
+  .clearBtn {
+    width: 100%;
+    background-color: #f4f4f4;
+    color: #444;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  .clearBtn:hover {
+    background-color: #e0e0e0;
+  }
+  
