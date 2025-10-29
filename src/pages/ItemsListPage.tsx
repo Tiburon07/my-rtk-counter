@@ -2,6 +2,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useState, type FormEvent } from 'react';
 import { useAppDispatch, useAppSelector } from '../hook';
 import { addItem, removeItem, selectAllItems } from '../features/items/itemsSlice';
+
 import MyAwesomeIcon from '../assets/react.svg?react';
 
 export default function ItemsListPage() {
