@@ -2,7 +2,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useState, type FormEvent } from 'react';
 import { useAppDispatch, useAppSelector } from '../hook';
 import { addItem, removeItem, selectAllItems } from '../features/items/itemsSlice';
-
+import MyAwesomeIcon from '../assets/react.svg?react';
 
 export default function ItemsListPage() {
   const items = useAppSelector(selectAllItems);
@@ -24,6 +24,7 @@ export default function ItemsListPage() {
     <section style={{ maxWidth: 720, margin: '2rem auto', padding: '1rem' }}>
       <header style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <h1>Items</h1>
+        <MyAwesomeIcon />
         <Link to="/items/new">+ Nuovo</Link>
       </header>
 

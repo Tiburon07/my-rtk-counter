@@ -1,6 +1,12 @@
 
+import MyAwesomeIcon from '../../public/vite.svg';
+
 export default function HomePage() {
   return (
-    <div>HomePage</div>
+    <>
+      <MyAwesomeIcon />
+      <div>HomePage</div>
+    </>
+    
   )
 }

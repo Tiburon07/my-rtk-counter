@@ -3,6 +3,8 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { visualizer } from 'rollup-plugin-visualizer';
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
+// 1. Importiamo il plugin SVGR
+import svgr from 'vite-plugin-svgr'; 
  
 
 export default defineConfig({
@@ -37,6 +39,8 @@ export default defineConfig({
         quality: 70, // AVIF è molto efficiente, si può scendere
       },
     }),
+    // 2. Aggiungiamo il plugin SVGR
+    svgr() 
   ],
   // Inizia la nostra nuova configurazione di build
   build: {
