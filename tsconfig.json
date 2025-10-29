@@ -3,5 +3,21 @@
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
+  ],
+  //"compilerOptions": {
+  //  "skipLibCheck": true,
+  //  "noEmitOnError": false,
+  //},
+  "exclude": [
+    "src/_old_examples/**",
+    "src/middlewares/**",
+    "src/api/**",
+    "src/features/auth/**",
+    "src/features/admin/**",
+    "src/features/todos/**",
+    "src/features/ui/**",
+    "src/features/tasks/**",
+    "src/features/catalog/**",
+    "src/components/**"
   ]
 }

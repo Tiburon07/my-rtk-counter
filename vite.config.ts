@@ -44,6 +44,7 @@ export default defineConfig({
   ],
   // Inizia la nostra nuova configurazione di build
   build: {
+    sourcemap: true, // Utile per analizzare i bundle
     rollupOptions: {
       output: {
         manualChunks(id) {

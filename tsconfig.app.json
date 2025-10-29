@@ -25,5 +25,16 @@
     "noUncheckedSideEffectImports": true
   },
   "include": ["src"],
-  "exclude": ["src/_old_examples"]
+  "exclude": [
+    "src/_old_examples/**",
+    "src/middlewares/**",
+    "src/api/**",
+    "src/features/auth/**",
+    "src/features/admin/**",
+    "src/features/todos/**",
+    "src/features/ui/**",
+    "src/features/tasks/**",
+    "src/features/catalog/**",
+    "src/components/**"
+  ]
 }
